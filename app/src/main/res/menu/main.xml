@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/wall"
+        android:title="Wall Icon"
+        android:icon="@drawable/pressed_button"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/finish"
+        android:title="Finish Icon"
+        android:icon="@drawable/finish_button"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/start"
+        android:title="Start Icon"
+        android:icon="@drawable/start_button"
+        android:orderInCategory="4"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/simulate"
+        android:title="Simulate"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/clear_path"
+        android:title="Clear Path"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/clear_grid"
+        android:title="Clear Grid"
+        android:orderInCategory="7"
+        app:showAsAction="never"/>
+
+</menu>
